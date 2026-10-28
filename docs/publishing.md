@@ -38,11 +38,12 @@ Do not overwrite an existing remote or force-push over unrelated work.
 
 ## Check the actual Actions run
 
-The workflow builds on Ubuntu, macOS, and Windows, runs CTest and numerical
-oracles, prints benchmark timings, validates JSON, and checks Doxygen links.
-Artifacts retain the platform's benchmark JSON and generated HTML. The Pages
-job runs after the complete build matrix succeeds, on a push to the default
-branch. Pull requests run validation but do not publish.
+The workflow builds on Ubuntu and Windows, runs CTest and numerical oracles,
+prints benchmark timings, validates JSON, and checks Doxygen links. Artifacts
+retain the platform's benchmark JSON and generated HTML. macOS was verified
+locally on the development machine and that record is in `verification/`; CI
+covers Linux and Windows. The Pages job runs after the build matrix succeeds,
+on a push to the default branch. Pull requests run validation but do not publish.
 
 All platform jobs and the Pages deployment must be green. Read the logs for the
 test count and benchmark validation message, download a measurement artifact,

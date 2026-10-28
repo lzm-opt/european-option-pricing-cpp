@@ -7,7 +7,7 @@ owner must publish the repository and obtain successful public workflow runs.
 | Criterion | Points | Implementation | Public step remaining |
 |---|---:|---|---|
 | Public repository, clear structure and README | 2 | Separate code, tests and benchmarks, with build/run instructions | Publish the source in the owner's account |
-| CMake and automatic CI build | 4 | Library/CLI targets and three-platform workflow | Successful GitHub build jobs |
+| CMake and automatic CI build | 4 | Library/CLI targets and the Linux/Windows workflow | Successful GitHub build jobs |
 | C++ framework tests running in CI | 4 | doctest plus independent CLI and convergence checks | Successful GitHub test jobs |
 | Automatic benchmark, results in CI log | 4 | Google Benchmark, paired workloads, JSON validator | Successful benchmark jobs and saved artifacts |
 | Doxygen publication and README link | 4 | Checked HTML, Pages workflow and real-link configuration helper | Enable Pages, deploy, and verify the actual link |

@@ -77,9 +77,10 @@ cmake --build build --config Release --target docs
 
 Outputs are `build/bin/`, `build/benchmark.json`, `build/convergence.json`, and
 `build/docs/html/index.html`. Open the HTML index to browse the generated API.
-The delivered `verification/` directory records the actual local checks and
-contains measurement data and a portable HTML archive. Local evidence does not
-establish Windows or GitHub execution.
+The delivered `verification/` directory records the checks that were run locally
+on macOS, with measurement data and a portable HTML archive. The workflow in
+`.github/workflows/` rebuilds, tests, benchmarks and documents the project on
+Linux and Windows; those runs are the authoritative CI evidence.
 
 | Path | Purpose |
 |---|---|
@@ -91,7 +92,7 @@ establish Windows or GitHub execution.
 | `data/scenarios.json` | Four synthetic contract scenarios |
 | `docs/` | Model, algorithms, convergence, timing and publishing |
 | `scripts/` | Full verification and evidence checking |
-| `.github/workflows/` | Three-platform CI and Pages deployment |
+| `.github/workflows/` | Linux and Windows CI and Pages deployment |
 | `third_party/` | Pinned upstream archives and licenses |
 
 Read [the financial model](docs/model.md), [the algorithms](docs/algorithms.md),
