@@ -2,7 +2,7 @@
   "project": "European Option Pricing",
   "project_version": "1.0.0",
   "checked_on": "2026-10-26",
-  "status": "Local source-transfer verification passed; public repository, CI and Pages pending owner setup",
+  "status": "Local source-transfer verification passed on macOS; the repository, CI and Pages were published afterwards and docs/acceptance.md links that public evidence",
   "source_files": 32,
   "source_manifest": "source-sha256.json",
   "reproduction": "Fresh source ZIP extraction into an independent temporary directory",
@@ -60,19 +60,28 @@
   },
   "full_log": "local-verify.log",
   "public_repository": {
-    "configured": false,
-    "published": false
+    "configured": true,
+    "published": true,
+    "url": "https://github.com/lzm-opt/european-option-pricing-cpp",
+    "note": "The hashes in source-sha256.json describe this 2026-10-26 snapshot. README, document and workflow edits made while publishing are outside that manifest; docs/acceptance.md links the public evidence."
   },
   "github_actions": {
     "workflow_configured": true,
-    "executed": false
+    "executed": true,
+    "platforms": [
+      "ubuntu-latest",
+      "windows-latest"
+    ],
+    "url": "https://github.com/lzm-opt/european-option-pricing-cpp/actions"
   },
   "github_pages": {
     "workflow_configured": true,
-    "published": false
+    "published": true,
+    "url": "https://lzm-opt.github.io/european-option-pricing-cpp/"
   },
   "windows": {
     "workflow_configured": true,
-    "executed_locally": false
+    "executed_locally": false,
+    "executed_in_ci": true
   }
 }
