@@ -6,9 +6,11 @@ tree, then measures runtime and finite-tree approximation error separately.
 CMake, doctest, Google Benchmark, Doxygen and GitHub Actions are included.
 
 <!-- repository-links:start -->
-**Public repository and documentation:** not configured. This is a local project
-ready to transfer. Follow [Publishing](docs/publishing.md) to set the eventual
-owner's real links and enable CI/Pages. No public deployment is claimed.
+**Repository:** [source](https://github.com/lzm-opt/european-option-pricing-cpp) |
+[Actions](https://github.com/lzm-opt/european-option-pricing-cpp/actions)
+
+**Documentation:** [Doxygen HTML](https://lzm-opt.github.io/european-option-pricing-cpp/)
+is rebuilt and published from the latest commit on `main` by the documentation workflow.
 <!-- repository-links:end -->
 
 ## Build and run
