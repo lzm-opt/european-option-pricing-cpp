@@ -1,0 +1,78 @@
+{
+  "project": "European Option Pricing",
+  "project_version": "1.0.0",
+  "checked_on": "2026-10-26",
+  "status": "Local source-transfer verification passed; public repository, CI and Pages pending owner setup",
+  "source_files": 32,
+  "source_manifest": "source-sha256.json",
+  "reproduction": "Fresh source ZIP extraction into an independent temporary directory",
+  "command": "bash scripts/verify.sh <temporary-build-directory>",
+  "exit_code": 0,
+  "platform": "Darwin arm64",
+  "tools": {
+    "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)",
+    "cmake": "cmake version 4.4.3",
+    "python": "Python 3.14.6",
+    "doxygen": "1.18.0"
+  },
+  "ctest_passed": 27,
+  "doctest_cases": 25,
+  "doctest_assertions": 237,
+  "cli_oracle": {
+    "decimal_precision": 80,
+    "analytic_comparisons": 8,
+    "terminal_tree_comparisons": 32,
+    "convergence_comparisons": 32,
+    "degenerate_comparisons": 8,
+    "invalid_inputs": 31,
+    "defaults_and_help_passed": true
+  },
+  "workflow_tool_tests": 10,
+  "benchmark": {
+    "workloads": 16,
+    "repetitions": 3,
+    "raw_rows": 48,
+    "aggregate_rows": 64,
+    "total_rows": 112,
+    "crr_steps": 512,
+    "report_data": "benchmark-report.json",
+    "reproduction_data": "benchmark-reproduction.json"
+  },
+  "convergence": {
+    "records": 32,
+    "steps": [
+      32,
+      128,
+      512,
+      1024
+    ],
+    "max_1024_absolute_error": 0.0030610790298977193,
+    "declared_final_error_limit": 0.03,
+    "monotone_error_required": false,
+    "report_data": "convergence-report.json",
+    "reproduction_data": "convergence-reproduction.json"
+  },
+  "documentation": {
+    "html_pages": 38,
+    "local_references_checked": 1127,
+    "broken_references": 0,
+    "offline_archive": "doxygen-html.zip"
+  },
+  "full_log": "local-verify.log",
+  "public_repository": {
+    "configured": false,
+    "published": false
+  },
+  "github_actions": {
+    "workflow_configured": true,
+    "executed": false
+  },
+  "github_pages": {
+    "workflow_configured": true,
+    "published": false
+  },
+  "windows": {
+    "workflow_configured": true,
+    "executed_locally": false
+  }
+}

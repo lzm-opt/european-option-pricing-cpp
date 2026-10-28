@@ -1,0 +1,9 @@
+{
+  "description": "Synthetic contracts; rates use continuous annual compounding.",
+  "scenarios": [
+    {"id": 0, "name": "at_the_money", "spot": 100, "strike": 100, "rate": 0.05, "dividend_yield": 0, "volatility": 0.2, "maturity": 1},
+    {"id": 1, "name": "dividend", "spot": 100, "strike": 95, "rate": 0.03, "dividend_yield": 0.02, "volatility": 0.25, "maturity": 0.5},
+    {"id": 2, "name": "out_of_the_money_call", "spot": 90, "strike": 110, "rate": 0.02, "dividend_yield": 0.01, "volatility": 0.3, "maturity": 2},
+    {"id": 3, "name": "negative_rate", "spot": 110, "strike": 100, "rate": -0.01, "dividend_yield": 0.01, "volatility": 0.2, "maturity": 0.75}
+  ]
+}

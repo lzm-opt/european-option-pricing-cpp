@@ -1,0 +1,298 @@
+-- The CXX compiler identification is AppleClang 21.0.0.21000334
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Python3: /opt/homebrew/Frameworks/Python.framework/Versions/3.14/bin/python3.14 (found suitable version "3.14.6", minimum required is "3.9") found components: Interpreter
+-- Found Git: /usr/bin/git (found version "2.54.0 (Apple Git-157)")
+-- Google Benchmark version: v1.9.5, normalized to 1.9.5
+-- Looking for shm_open in rt
+-- Looking for shm_open in rt - not found
+-- Performing Test HAVE_CXX_FLAG_WALL
+-- Performing Test HAVE_CXX_FLAG_WALL - Success
+-- Performing Test HAVE_CXX_FLAG_WEXTRA
+-- Performing Test HAVE_CXX_FLAG_WEXTRA - Success
+-- Performing Test HAVE_CXX_FLAG_WSHADOW
+-- Performing Test HAVE_CXX_FLAG_WSHADOW - Success
+-- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL
+-- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL - Success
+-- Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST
+-- Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST - Success
+-- Performing Test HAVE_CXX_FLAG_WCONVERSION
+-- Performing Test HAVE_CXX_FLAG_WCONVERSION - Success
+-- Performing Test HAVE_CXX_FLAG_WFORMAT_2
+-- Performing Test HAVE_CXX_FLAG_WFORMAT_2 - Success
+-- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE
+-- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE - Success
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC - Success
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS - Success
+-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32
+-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 - Success
+-- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING
+-- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING - Success
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS - Success
+-- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING
+-- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING - Success
+-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY
+-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY - Success
+-- Enabling additional flags: -DINCLUDE_DIRECTORIES=/private/tmp/lzm-option-final-reproduction-20261026/build/_deps/benchmark-src/include
+-- Performing Test THREAD_SAFETY_ATTRIBUTES -- success
+-- Performing Test HAVE_CXX_FLAG_COVERAGE
+-- Performing Test HAVE_CXX_FLAG_COVERAGE - Success
+-- Performing Test STD_REGEX -- success
+-- Performing Test STEADY_CLOCK -- success
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test PTHREAD_AFFINITY -- failed
+-- Found Doxygen: /opt/homebrew/bin/doxygen (found version "1.18.0") found components: doxygen missing components: dot
+-- Configuring done (4.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /private/tmp/lzm-option-final-reproduction-20261026/build
+[  6%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark.cc.o
+[  6%] Building CXX object CMakeFiles/option_core.dir/src/pricing.cpp.o
+[  9%] Linking CXX static library liboption_core.a
+[  9%] Built target option_core
+[ 12%] Building CXX object _deps/doctest-build/CMakeFiles/doctest_with_main.dir/doctest/doctest.cpp.o
+[ 15%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o
+[ 18%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_name.cc.o
+[ 21%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o
+[ 25%] Linking CXX static library libdoctest_with_main.a
+[ 25%] Built target doctest_with_main
+[ 28%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_runner.cc.o
+[ 31%] Building CXX object CMakeFiles/option_pricer.dir/src/main.cpp.o
+[ 34%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/check.cc.o
+[ 37%] Linking CXX executable bin/option_pricer
+[ 37%] Built target option_pricer
+[ 40%] Building CXX object CMakeFiles/option_tests.dir/tests/test_pricing.cpp.o
+[ 43%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/colorprint.cc.o
+[ 46%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/commandlineflags.cc.o
+[ 50%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/complexity.cc.o
+[ 53%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/console_reporter.cc.o
+[ 56%] Linking CXX executable bin/option_tests
+[ 59%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/counter.cc.o
+[ 59%] Built target option_tests
+[ 62%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/csv_reporter.cc.o
+[ 65%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/json_reporter.cc.o
+[ 68%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/perf_counters.cc.o
+[ 71%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/reporter.cc.o
+[ 75%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/statistics.cc.o
+[ 78%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/string_util.cc.o
+[ 81%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/sysinfo.cc.o
+[ 84%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/timers.cc.o
+[ 87%] Linking CXX static library libbenchmark.a
+[ 87%] Built target benchmark
+[ 93%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o
+[ 93%] Building CXX object CMakeFiles/option_benchmark.dir/benchmarks/benchmark_pricing.cpp.o
+/private/tmp/lzm-option-final-reproduction-20261026/european-option-pricing-cpp/benchmarks/benchmark_pricing.cpp:23:37: warning: 'Benchmark' is deprecated: Use ::benchmark::Benchmark instead [-Wdeprecated-declarations]
+   23 | void workloads(benchmark::internal::Benchmark* experiment) {
+      |                                     ^
+/private/tmp/lzm-option-final-reproduction-20261026/build/_deps/benchmark-src/include/benchmark/benchmark.h:1385:9: note: 'Benchmark' has been explicitly marked deprecated here
+ 1385 | typedef BENCHMARK_DEPRECATED_MSG("Use ::benchmark::Benchmark instead")
+      |         ^
+/private/tmp/lzm-option-final-reproduction-20261026/build/_deps/benchmark-src/include/benchmark/benchmark.h:229:54: note: expanded from macro 'BENCHMARK_DEPRECATED_MSG'
+  229 | #define BENCHMARK_DEPRECATED_MSG(msg) __attribute__((deprecated(msg)))
+      |                                                      ^
+[ 96%] Linking CXX static library libbenchmark_main.a
+[ 96%] Built target benchmark_main
+1 warning generated.
+[100%] Linking CXX executable bin/option_benchmark
+[100%] Built target option_benchmark
+Test project /private/tmp/lzm-option-final-reproduction-20261026/build
+      Start  1: standard Black-Scholes call matches independent reference value
+ 1/27 Test  #1: standard Black-Scholes call matches independent reference value ..................   Passed    0.00 sec
+      Start  2: standard Black-Scholes put matches independent reference value
+ 2/27 Test  #2: standard Black-Scholes put matches independent reference value ...................   Passed    0.00 sec
+      Start  3: analytic put-call parity includes dividends and negative rates
+ 3/27 Test  #3: analytic put-call parity includes dividends and negative rates ...................   Passed    0.00 sec
+      Start  4: tree put-call parity uses the same discounted cash-flow identity
+ 4/27 Test  #4: tree put-call parity uses the same discounted cash-flow identity .................   Passed    0.00 sec
+      Start  5: zero expiry returns intrinsic call and put values
+ 5/27 Test  #5: zero expiry returns intrinsic call and put values ................................   Passed    0.00 sec
+      Start  6: zero volatility prices a deterministic discounted payoff
+ 6/27 Test  #6: zero volatility prices a deterministic discounted payoff .........................   Passed    0.00 sec
+      Start  7: analytic and tree prices satisfy European no-arbitrage bounds
+ 7/27 Test  #7: analytic and tree prices satisfy European no-arbitrage bounds ....................   Passed    0.00 sec
+      Start  8: call increases and put decreases with spot
+ 8/27 Test  #8: call increases and put decreases with spot .......................................   Passed    0.00 sec
+      Start  9: call decreases and put increases with strike
+ 9/27 Test  #9: call decreases and put increases with strike .....................................   Passed    0.00 sec
+      Start 10: a one-step tree agrees with a two-outcome hand calculation
+10/27 Test #10: a one-step tree agrees with a two-outcome hand calculation .......................   Passed    0.00 sec
+      Start 11: a two-step tree agrees with direct terminal outcome probabilities
+11/27 Test #11: a two-step tree agrees with direct terminal outcome probabilities ................   Passed    0.00 sec
+      Start 12: finite-step tree is an approximation rather than exact analytic pricing
+12/27 Test #12: finite-step tree is an approximation rather than exact analytic pricing ..........   Passed    0.00 sec
+      Start 13: fine trees approximate the four declared synthetic contracts
+13/27 Test #13: fine trees approximate the four declared synthetic contracts .....................   Passed    0.00 sec
+      Start 14: linear currency scaling preserves both pricing methods
+14/27 Test #14: linear currency scaling preserves both pricing methods ...........................   Passed    0.00 sec
+      Start 15: pricing preserves every contract field
+15/27 Test #15: pricing preserves every contract field ...........................................   Passed    0.00 sec
+      Start 16: input domain endpoints are accepted
+16/27 Test #16: input domain endpoints are accepted ..............................................   Passed    0.00 sec
+      Start 17: invalid spot and strike ranges are rejected
+17/27 Test #17: invalid spot and strike ranges are rejected ......................................   Passed    0.00 sec
+      Start 18: nonfinite values in every field are rejected
+18/27 Test #18: nonfinite values in every field are rejected .....................................   Passed    0.00 sec
+      Start 19: risk-free rate and dividend domain violations are rejected
+19/27 Test #19: risk-free rate and dividend domain violations are rejected .......................   Passed    0.00 sec
+      Start 20: volatility admits zero but rejects the excluded positive gap
+20/27 Test #20: volatility admits zero but rejects the excluded positive gap .....................   Passed    0.00 sec
+      Start 21: maturity admits zero but rejects the excluded positive gap
+21/27 Test #21: maturity admits zero but rejects the excluded positive gap .......................   Passed    0.00 sec
+      Start 22: invalid option enum values are rejected including degenerate contracts
+22/27 Test #22: invalid option enum values are rejected including degenerate contracts ...........   Passed    0.00 sec
+      Start 23: tree step bounds apply even at zero expiry or volatility
+23/27 Test #23: tree step bounds apply even at zero expiry or volatility .........................   Passed    0.00 sec
+      Start 24: inadmissible risk-neutral probabilities are errors rather than clipped guesses
+24/27 Test #24: inadmissible risk-neutral probabilities are errors rather than clipped guesses ...   Passed    0.00 sec
+      Start 25: the largest supported tree remains finite on an ordinary contract
+25/27 Test #25: the largest supported tree remains finite on an ordinary contract ................   Passed    0.00 sec
+      Start 26: cli_decimal_oracle
+26/27 Test #26: cli_decimal_oracle ...............................................................   Passed    0.41 sec
+      Start 27: workflow_evidence_checks
+27/27 Test #27: workflow_evidence_checks .........................................................   Passed    0.06 sec
+
+100% tests passed out of 27
+
+Total Test time (real) =   0.52 sec
+[ 80%] Built target benchmark
+[ 88%] Built target option_core
+[ 96%] Built target option_benchmark
+[100%] Compare analytic Black-Scholes and 512-step CRR pricing; validate JSON
+Unable to determine clock rate from sysctl: hw.cpufrequency: No such file or directory
+This does not affect benchmark measurements, only the metadata output.
+Benchmark setup: CRR steps=512, maximum absolute analytic/tree difference=0.00505733
+***WARNING*** Failed to set thread affinity. Estimated CPU frequency may be incorrect.
+2026-10-26T08:51:32-07:00
+Running bin/option_benchmark
+Run on (15 X 24 MHz CPU s)
+Load Average: 1.90, 2.00, 2.10
+crr_steps: 512
+pricing_error_budget: 0.05 currency units
+-----------------------------------------------------------------------------------
+Benchmark                                         Time             CPU   Iterations
+-----------------------------------------------------------------------------------
+BM_BlackScholes/scenario:0/kind:0              17.3 ns         17.2 ns      1626111
+BM_BlackScholes/scenario:0/kind:0              17.3 ns         17.2 ns      1626111
+BM_BlackScholes/scenario:0/kind:0              17.4 ns         17.4 ns      1626111
+BM_BlackScholes/scenario:0/kind:0_mean         17.3 ns         17.3 ns            3
+BM_BlackScholes/scenario:0/kind:0_median       17.3 ns         17.2 ns            3
+BM_BlackScholes/scenario:0/kind:0_stddev      0.065 ns        0.064 ns            3
+BM_BlackScholes/scenario:0/kind:0_cv           0.38 %          0.37 %             3
+BM_BlackScholes/scenario:0/kind:1              17.4 ns         17.3 ns      1619433
+BM_BlackScholes/scenario:0/kind:1              17.3 ns         17.3 ns      1619433
+BM_BlackScholes/scenario:0/kind:1              17.3 ns         17.3 ns      1619433
+BM_BlackScholes/scenario:0/kind:1_mean         17.3 ns         17.3 ns            3
+BM_BlackScholes/scenario:0/kind:1_median       17.3 ns         17.3 ns            3
+BM_BlackScholes/scenario:0/kind:1_stddev      0.018 ns        0.016 ns            3
+BM_BlackScholes/scenario:0/kind:1_cv           0.10 %          0.09 %             3
+BM_BlackScholes/scenario:1/kind:0              17.3 ns         17.3 ns      1612067
+BM_BlackScholes/scenario:1/kind:0              17.8 ns         17.7 ns      1612067
+BM_BlackScholes/scenario:1/kind:0              17.6 ns         17.6 ns      1612067
+BM_BlackScholes/scenario:1/kind:0_mean         17.6 ns         17.5 ns            3
+BM_BlackScholes/scenario:1/kind:0_median       17.6 ns         17.6 ns            3
+BM_BlackScholes/scenario:1/kind:0_stddev      0.211 ns        0.209 ns            3
+BM_BlackScholes/scenario:1/kind:0_cv           1.20 %          1.19 %             3
+BM_BlackScholes/scenario:1/kind:1              17.5 ns         17.4 ns      1611975
+BM_BlackScholes/scenario:1/kind:1              17.6 ns         17.5 ns      1611975
+BM_BlackScholes/scenario:1/kind:1              17.5 ns         17.5 ns      1611975
+BM_BlackScholes/scenario:1/kind:1_mean         17.6 ns         17.5 ns            3
+BM_BlackScholes/scenario:1/kind:1_median       17.5 ns         17.5 ns            3
+BM_BlackScholes/scenario:1/kind:1_stddev      0.057 ns        0.050 ns            3
+BM_BlackScholes/scenario:1/kind:1_cv           0.33 %          0.28 %             3
+BM_BlackScholes/scenario:2/kind:0              17.7 ns         17.6 ns      1585145
+BM_BlackScholes/scenario:2/kind:0              17.7 ns         17.7 ns      1585145
+BM_BlackScholes/scenario:2/kind:0              17.5 ns         17.5 ns      1585145
+BM_BlackScholes/scenario:2/kind:0_mean         17.7 ns         17.6 ns            3
+BM_BlackScholes/scenario:2/kind:0_median       17.7 ns         17.6 ns            3
+BM_BlackScholes/scenario:2/kind:0_stddev      0.105 ns        0.083 ns            3
+BM_BlackScholes/scenario:2/kind:0_cv           0.60 %          0.47 %             3
+BM_BlackScholes/scenario:2/kind:1              17.4 ns         17.4 ns      1615695
+BM_BlackScholes/scenario:2/kind:1              17.3 ns         17.3 ns      1615695
+BM_BlackScholes/scenario:2/kind:1              17.4 ns         17.4 ns      1615695
+BM_BlackScholes/scenario:2/kind:1_mean         17.4 ns         17.4 ns            3
+BM_BlackScholes/scenario:2/kind:1_median       17.4 ns         17.4 ns            3
+BM_BlackScholes/scenario:2/kind:1_stddev      0.054 ns        0.054 ns            3
+BM_BlackScholes/scenario:2/kind:1_cv           0.31 %          0.31 %             3
+BM_BlackScholes/scenario:3/kind:0              17.3 ns         17.3 ns      1634655
+BM_BlackScholes/scenario:3/kind:0              17.3 ns         17.3 ns      1634655
+BM_BlackScholes/scenario:3/kind:0              17.3 ns         17.3 ns      1634655
+BM_BlackScholes/scenario:3/kind:0_mean         17.3 ns         17.3 ns            3
+BM_BlackScholes/scenario:3/kind:0_median       17.3 ns         17.3 ns            3
+BM_BlackScholes/scenario:3/kind:0_stddev      0.007 ns        0.007 ns            3
+BM_BlackScholes/scenario:3/kind:0_cv           0.04 %          0.04 %             3
+BM_BlackScholes/scenario:3/kind:1              17.4 ns         17.3 ns      1619621
+BM_BlackScholes/scenario:3/kind:1              17.5 ns         17.4 ns      1619621
+BM_BlackScholes/scenario:3/kind:1              17.3 ns         17.3 ns      1619621
+BM_BlackScholes/scenario:3/kind:1_mean         17.4 ns         17.3 ns            3
+BM_BlackScholes/scenario:3/kind:1_median       17.4 ns         17.3 ns            3
+BM_BlackScholes/scenario:3/kind:1_stddev      0.089 ns        0.093 ns            3
+BM_BlackScholes/scenario:3/kind:1_cv           0.51 %          0.54 %             3
+BM_CRR/scenario:0/kind:0                      17093 ns        17080 ns         1635
+BM_CRR/scenario:0/kind:0                      17096 ns        17083 ns         1635
+BM_CRR/scenario:0/kind:0                      17128 ns        17119 ns         1635
+BM_CRR/scenario:0/kind:0_mean                 17106 ns        17094 ns            3
+BM_CRR/scenario:0/kind:0_median               17096 ns        17083 ns            3
+BM_CRR/scenario:0/kind:0_stddev                19.5 ns         22.0 ns            3
+BM_CRR/scenario:0/kind:0_cv                    0.11 %          0.13 %             3
+BM_CRR/scenario:0/kind:1                      17143 ns        17129 ns         1628
+BM_CRR/scenario:0/kind:1                      17096 ns        17083 ns         1628
+BM_CRR/scenario:0/kind:1                      17082 ns        17072 ns         1628
+BM_CRR/scenario:0/kind:1_mean                 17107 ns        17095 ns            3
+BM_CRR/scenario:0/kind:1_median               17096 ns        17083 ns            3
+BM_CRR/scenario:0/kind:1_stddev                32.2 ns         30.3 ns            3
+BM_CRR/scenario:0/kind:1_cv                    0.19 %          0.18 %             3
+BM_CRR/scenario:1/kind:0                      17129 ns        17120 ns         1636
+BM_CRR/scenario:1/kind:0                      17044 ns        17031 ns         1636
+BM_CRR/scenario:1/kind:0                      17259 ns        17235 ns         1636
+BM_CRR/scenario:1/kind:0_mean                 17144 ns        17129 ns            3
+BM_CRR/scenario:1/kind:0_median               17129 ns        17120 ns            3
+BM_CRR/scenario:1/kind:0_stddev                 108 ns          103 ns            3
+BM_CRR/scenario:1/kind:0_cv                    0.63 %          0.60 %             3
+BM_CRR/scenario:1/kind:1                      17144 ns        17141 ns         1580
+BM_CRR/scenario:1/kind:1                      17146 ns        17144 ns         1580
+BM_CRR/scenario:1/kind:1                      17392 ns        17387 ns         1580
+BM_CRR/scenario:1/kind:1_mean                 17228 ns        17224 ns            3
+BM_CRR/scenario:1/kind:1_median               17146 ns        17144 ns            3
+BM_CRR/scenario:1/kind:1_stddev                 142 ns          142 ns            3
+BM_CRR/scenario:1/kind:1_cv                    0.83 %          0.82 %             3
+BM_CRR/scenario:2/kind:0                      17261 ns        17250 ns         1634
+BM_CRR/scenario:2/kind:0                      17124 ns        17120 ns         1634
+BM_CRR/scenario:2/kind:0                      17031 ns        17018 ns         1634
+BM_CRR/scenario:2/kind:0_mean                 17139 ns        17129 ns            3
+BM_CRR/scenario:2/kind:0_median               17124 ns        17120 ns            3
+BM_CRR/scenario:2/kind:0_stddev                 116 ns          117 ns            3
+BM_CRR/scenario:2/kind:0_cv                    0.67 %          0.68 %             3
+BM_CRR/scenario:2/kind:1                      17122 ns        17109 ns         1637
+BM_CRR/scenario:2/kind:1                      17119 ns        17102 ns         1637
+BM_CRR/scenario:2/kind:1                      17183 ns        17174 ns         1637
+BM_CRR/scenario:2/kind:1_mean                 17141 ns        17128 ns            3
+BM_CRR/scenario:2/kind:1_median               17122 ns        17109 ns            3
+BM_CRR/scenario:2/kind:1_stddev                36.3 ns         39.7 ns            3
+BM_CRR/scenario:2/kind:1_cv                    0.21 %          0.23 %             3
+BM_CRR/scenario:3/kind:0                      17160 ns        17148 ns         1640
+BM_CRR/scenario:3/kind:0                      17118 ns        17104 ns         1640
+BM_CRR/scenario:3/kind:0                      17132 ns        17116 ns         1640
+BM_CRR/scenario:3/kind:0_mean                 17137 ns        17123 ns            3
+BM_CRR/scenario:3/kind:0_median               17132 ns        17116 ns            3
+BM_CRR/scenario:3/kind:0_stddev                21.6 ns         22.6 ns            3
+BM_CRR/scenario:3/kind:0_cv                    0.13 %          0.13 %             3
+BM_CRR/scenario:3/kind:1                      17122 ns        17109 ns         1640
+BM_CRR/scenario:3/kind:1                      17129 ns        17120 ns         1640
+BM_CRR/scenario:3/kind:1                      17103 ns        17089 ns         1640
+BM_CRR/scenario:3/kind:1_mean                 17118 ns        17106 ns            3
+BM_CRR/scenario:3/kind:1_median               17122 ns        17109 ns            3
+BM_CRR/scenario:3/kind:1_stddev                13.4 ns         15.7 ns            3
+BM_CRR/scenario:3/kind:1_cv                    0.08 %          0.09 %             3
+Benchmark validation passed: 16 workloads, 48 measured repetitions, 112 JSON records.
+[100%] Built target run_benchmarks
+[100%] Generate Doxygen HTML and validate local links
+Documentation validation passed: 38 HTML pages, 1127 local references.
+[100%] Built target docs
+Verification complete: build, tests, benchmark JSON and documentation passed.
